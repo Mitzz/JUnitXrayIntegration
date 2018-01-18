@@ -1,8 +1,9 @@
 Working with common reusable script
-
+New Repo and adding as remote repo in local
+Not have a good abstraction of previous work
+Not working reuable script
 
 cd 'C:\Users\bhansm\Desktop\JUnitXRayIntegration\script'
 . .\JUnitXRayIntegration.ps1
-
 
 C:\Users\bhansm\Documents\My Received Files\powershell\Get-IniContent.psm1
