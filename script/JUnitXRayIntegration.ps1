@@ -1,4 +1,4 @@
-class AB{
+class XrayIntegrator{
     [XrayTestEntityVo[]]$testVos = @()
     [XrayTestSetEntityVo[]]$testSetVos = @()
     [XrayTestPlanEntityVo]$testPlanVo
@@ -70,15 +70,14 @@ class AB{
     }
 }
 
-class JUnitXmlProcessor : AB {
-    [System.Xml.XmlDocument]$file
+class JUnitTestSuiteNodeProcessor : XrayIntegrator {
     [string]$startDate;
     [string]$endDate;
     [string]$suiteName;
+    [System.Xml.XmlNode]$suiteNode
 
-    JUnitXmlProcessor($filePath){
-        [System.Xml.XmlDocument]$this.file = new-object System.Xml.XmlDocument
-        $this.file.load($filePath)
+    JUnitTestSuiteNodeProcessor($suiteNode){
+        $this.suiteNode = $suiteNode
         $this.init()
     }
 
@@ -87,7 +86,7 @@ class JUnitXmlProcessor : AB {
     }
 
     PopulateSuiteInfo(){
-        $this.TestSuiteNodeHandler($this.file.SelectNodes("/testsuite"))
+        $this.TestSuiteNodeHandler($this.suiteNode)
     }
 
     TestSuiteNodeHandler($suiteNode){
@@ -156,7 +155,7 @@ class JUnitXmlProcessor : AB {
 
     [XrayTestEntityVo[]] GetTestVos(){
         $testVos = @()
-        $testCaseNodes= $this.file.SelectNodes("/testsuite/testcase")
+        $testCaseNodes= $this.suiteNode.ChildNodes
         [int]$count = 0
         foreach ($testCaseNode in $testCaseNodes) {
             Write-Host "Iterating Node: " $testCaseNode.LocalName
@@ -173,4 +172,27 @@ class JUnitXmlProcessor : AB {
     
 }
 
-$vo = [JUnitXmlProcessor]::new([Constants]::reportFilePath)
+class JUnitXRayIntegrationProcessor{
+    [System.Xml.XmlDocument]$file
+    [JUnitTestSuiteNodeProcessor[]]$testSuites
+    JUnitXRayIntegrationProcessor($filePath){
+        [System.Xml.XmlDocument]$this.file = new-object System.Xml.XmlDocument
+        $this.file.load($filePath)
+        $this.init()
+    }
+
+    init(){
+        $testSuiteNodes = $this.file.SelectNodes('//testsuite')
+        foreach($testSuiteNode in $testSuiteNodes){
+            $this.testSuites = $this.testSuites + [JUnitTestSuiteNodeProcessor]::new($testSuiteNode)
+        }
+    }
+
+    executeAll(){
+        foreach($testSuite in $this.testSuites){
+            $testSuite.execute()
+        }
+    }
+}
+
+$vo = [JUnitXRayIntegrationProcessor]::new([Constants]::reportFilePath)
