@@ -34,7 +34,9 @@ class JUnitXmlProcessor{
     [XrayTestEntityVo] handleTestCaseNode($testCaseNode){
         $description = $testCaseNode.classname + ":" + $testCaseNode.name
         $summary = $description
-        [XrayTestEntityVo]$testVo = [XrayTestEntityVo]::new($summary, $description, "Generic")
+        [XrayTestEntityVo]$testVo = [XrayTestEntityVo]::new()
+        $testVo.summary = $summary
+        $testVo.description = $description
         $comment = $this.getComment($testCaseNode)
         $testVo.setStatus($this.getStatus($testCaseNode))
         $testVo.setComment($comment)

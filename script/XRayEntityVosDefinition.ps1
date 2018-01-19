@@ -118,7 +118,7 @@ class XrayTestPlanEntityVo{
                 "customfield_10424" = $this.getKeys()
              }
          }
-         ConvertTo-Json $body
+         
         [Credentials]::setProtocols()
         Write-Host "Creating Test Plan...."
         $response = Invoke-WebRequest -Uri $url -Headers $Headers -Method Post -Body (ConvertTo-Json $body) -ContentType "application/json" 
@@ -200,10 +200,8 @@ class XrayTestEntityVo
     [string]$finish;#>
     [string]$comment;
       
-    XrayTestEntityVo($summary, $description, $testType){
-        $this.summary = $summary
-        $this.description = $description
-        $this.testType = $testType
+    XrayTestEntityVo(){
+        $this.testType = "Generic"
     }
 
     <#static [XrayTestEntityVo] getInstance()
@@ -224,8 +222,8 @@ class XrayTestEntityVo
                 "project" = @{
                     "key" = [Constants]::projectKey;
                 };
-                "summary" = $this.fields.summary + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
-                "description" = $this.fields.summary + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
+                "summary" = $this.summary + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
+                "description" = $this.description + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
                 "issuetype" = @{
                     "name" = "Test";
                  };
@@ -284,51 +282,6 @@ class XrayTestEntityVo
         Write-Host $response
     }
 }
-
-<#class Fields{
-    [Project]$project;
-    [string]$summary;
-    [string]$description;
-    [IssueType]$issuetype;
-    [TestType]$customfield_10400;
-    [string]$customfield_10403; 
-
-    Fields(){
-    }
-
-    Fields([Project]$project, [string]$summary, [string]$description, [IssueType]$issuetype, [TestType]$customfield_10400, [string]$customfield_10403){
-        $this.project = $project
-        $this.summary = $summary
-        $this.description = $description
-        $this.issuetype = $issuetype
-        $this.customfield_10400 = $customfield_10400
-        $this.customfield_10403 = $customfield_10403
-    }
-}
-
-class TestType{
-    [string]$value;
-    
-    TestType([string]$value){
-        $this.value = $value;
-    }
-}
-
-class IssueType{
-    [string]$name;
-
-    IssueType([string]$name){
-        $this.name = $name;
-    }
-}
-
-class Project{
-    [string]$key;
-
-    Project([string]$key){
-        $this.key = $key;
-    }
-}#>
 
 class Constants{
     
