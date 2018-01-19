@@ -1,10 +1,67 @@
-class JUnitXmlProcessor{
-    [System.Xml.XmlDocument]$file
+class AB{
     [XrayTestEntityVo[]]$testVos = @()
     [XrayTestSetEntityVo[]]$testSetVos = @()
     [XrayTestPlanEntityVo]$testPlanVo
     [XrayTestExecutionEntityVo]$testExecutionVo
 
+    CreateTestEntityVos(){
+        $this.testVos = $this.GetTestVos();
+    }
+    
+    [XrayTestEntityVo[]] GetTestVos(){
+        return $this.testVos
+    }
+
+    SaveTestEntityVos(){
+        foreach ($testVo in $this.testVos) {
+            $testVo.save()
+            $testVo.changeWorkflowStatus(11);
+        }
+    }
+
+    CreateTestSetEntityVos(){
+        $this.testSetVos = $this.GetTestSetVos()
+    }
+    
+    [XrayTestSetEntityVo[]] GetTestSetVos(){
+        return $this.testSetVos;
+    }
+
+    SaveTestSetEntityVos(){
+        foreach ($testSetVo in $this.testSetVos) {
+            Write-Host "Creating Test Set with " $testSetVo.tests.Count " tests..." 
+            $testSetVo.create()
+            Write-Host "Created Test Set with " $testSetVo.tests.Count " tests" 
+        }
+    }
+
+    CreateTestPlanEntityVo(){
+        $this.testPlanVo = $this.GetTestPlanVo()
+    }
+    
+    [XrayTestPlanEntityVo[]] GetTestPlanVo(){
+        return [XrayTestPlanEntityVo]::new($this.testVos, $this.testSetVos);
+    }
+
+    SaveTestPlanEntityVo(){
+        $this.testPlanVo.create()
+    }
+
+    CreateTestExecutionEntityVo(){
+        $this.testExecutionVo = $this.GetTestExecutionEntityVo()
+    }
+    
+    [XrayTestExecutionEntityVo] GetTestExecutionEntityVo(){
+        return [XrayTestExecutionEntityVo]::new($this.suiteName, $this.startDate, $this.endDate, $this.testPlanVo);
+    }
+
+    SaveTestExecutionVo(){
+        $this.testExecutionVo.create()
+    }
+}
+
+class JUnitXmlProcessor : AB {
+    [System.Xml.XmlDocument]$file
     [string]$startDate;
     [string]$endDate;
     [string]$suiteName;
@@ -24,11 +81,7 @@ class JUnitXmlProcessor{
     }
 
     TestSuiteNodeHandler($suiteNode){
-        $this.suiteName = $suiteNode.testsuitename
-    }
-
-    RootNodeHandler($root_node){
-        $this.suiteName = $root_node.name
+        $this.suiteName = $suiteNode.name
     }
 
     [XrayTestEntityVo] handleTestCaseNode($testCaseNode){
@@ -91,109 +144,25 @@ class JUnitXmlProcessor{
           return $comment
     }
 
-    [XrayTestEntityVo[]] handleIterationContainerNode($iterationContainerNode){
-        Write-Host "Processing Iteration Container Node...."
-        [XrayTestEntityVo[]]$testArr = @()
-        [string]$activityType = "";
-        foreach ($childNodeOfIterationContainer in $iterationContainerNode.ChildNodes) {
-            $activityType = $childNodeOfIterationContainer.type
-            if($activityType -eq 'test-case'){
-                $testArr = $testArr + $this.handleTestCaseNode($childNodeOfIterationContainer)
-            }
-        }
-        Write-Host "Found: " + $testArr.Count
-        return $testArr
-    }
-
-    [XrayTestEntityVo[]] handleSmartFolderNode($smartFolderNode){
-        Write-Host "Processing Smart Folder Node...."
-        [XrayTestEntityVo[]]$testArr = @()
-        [string]$activityType = "";
-        foreach ($childNodeOfsmartFolder in $smartFolderNode.ChildNodes) {
-            $activityType = $childNodeOfsmartFolder.type
-            if($activityType -eq 'test-case'){
-                $testArr = $testArr + $this.handleTestCaseNode($childNodeOfsmartFolder)
-            } elseif ($activityType -eq 'iteration-container'){
-                $testArr = $testArr + $this.handleIterationContainerNode($childNodeOfsmartFolder)
-            } elseif ($activityType -eq 'smart-folder'){
-                $testArr = $testArr + $this.handleSmartFolderNode($childNodeOfsmartFolder)
-            }
-        }
-        Write-Host "Found: " $testArr.Count
-        return $testArr
-    }
-
-    CreateTestSetVos(){
-        $this.testSetVos = @() 
-        $smartFolderNodes= $this.file.SelectNodes("//activity[@type='test-suite']/activity[@type='smart-folder']")
-        [int]$count = 0
-        $activtyType = ''
-        foreach ($smartFolderNode in $smartFolderNodes) {
-            Write-Host "Processing Next SmartFolder"
-            $this.testSetVos = $this.testSetVos + [XrayTestSetEntityVo]::new($this.handleSmartFolderNode($smartFolderNode))
-            Write-Host "Finished"
-        }
-    }
-
-    SaveTestSetVos(){
-        foreach ($testSetVo in $this.testSetVos) {
-            Write-Host "Creating Test Set with " $testSetVo.tests.Count " tests..." 
-            $testSetVo.create()
-            Write-Host "Created Test Set with " $testSetVo.tests.Count " tests" 
-        }
-    }
-
-    CreateTestVos(){
-        $this.testVos = @()
+    [XrayTestEntityVo[]] GetTestVos(){
+        $testVos = @()
         $testCaseNodes= $this.file.SelectNodes("/testsuite/testcase")
         [int]$count = 0
         foreach ($testCaseNode in $testCaseNodes) {
             Write-Host "Iterating Node: " $testCaseNode.LocalName
-            $this.testVos = $this.testVos + $this.handleTestCaseNode($testCaseNode);
+            $testVos = $testVos + $this.handleTestCaseNode($testCaseNode);
         }
         Write-Host "Tests Count: " +  $this.testVos.Count
+        return $testVos
     }
 
-    SaveTestVos(){
-        foreach ($testVo in $this.testVos) {
-            $testVo.save()
-            $testVo.changeWorkflowStatus(11);
-        }
+    [XrayTestExecutionEntityVo] GetTestExecutionEntityVo(){
+        return [XrayTestExecutionEntityVo]::new($this.suiteName, $this.startDate, $this.endDate, $this.testPlanVo);
     }
-
-    CreateTestPlanVo(){
-        $this.testPlanVo = [XrayTestPlanEntityVo]::new($this.testVos, $this.testSetVos)
-        
-    }
-
-    SaveTestPlanVo(){
-        $this.testPlanVo.create()
-    }
-
-    CreateTestExecutionVo(){
-        $this.testExecutionVo = [XrayTestExecutionEntityVo]::new($this.suiteName, $this.startDate, $this.endDate, $this.testPlanVo)
-    }
-
-    SaveTestExecutionVo(){
-        $this.testExecutionVo.create()
-    }
-    
-    [int]getTotalTestVos(){
-        $count = 0
-        $count = $this.testVos.Count;
-
-        foreach($testSet in $this.testSetVos){
-            $count = $count + $testSet.tests.Count
-        }
-        return $count
-    }
-
 
     execute(){
         $this.CreateTestVos()
-        #$this.CreateTestSetVos()
         $this.SaveTestVos()
-        #$this.SaveTestSetVos()
         $this.CreateTestPlanVo();
         $this.SaveTestPlanVo()
         $this.CreateTestExecutionVo();
