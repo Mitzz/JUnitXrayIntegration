@@ -39,7 +39,7 @@ class AB{
         $this.testPlanVo = $this.GetTestPlanVo()
     }
     
-    [XrayTestPlanEntityVo[]] GetTestPlanVo(){
+    [XrayTestPlanEntityVo] GetTestPlanVo(){
         return [XrayTestPlanEntityVo]::new($this.testVos, $this.testSetVos);
     }
 
@@ -57,6 +57,16 @@ class AB{
 
     SaveTestExecutionVo(){
         $this.testExecutionVo.create()
+    }
+
+    execute(){
+        $this.CreateTestEntityVos()
+        $this.SaveTestEntityVos()
+        $this.CreateTestPlanEntityVo();
+        $this.SaveTestPlanEntityVo()
+        $this.CreateTestExecutionEntityVo();
+        $this.SaveTestExecutionVo()
+
     }
 }
 
@@ -77,7 +87,7 @@ class JUnitXmlProcessor : AB {
     }
 
     PopulateSuiteInfo(){
-        $this.RootNodeHandler($this.file.SelectNodes("/testsuite"))
+        $this.TestSuiteNodeHandler($this.file.SelectNodes("/testsuite"))
     }
 
     TestSuiteNodeHandler($suiteNode){
@@ -152,7 +162,7 @@ class JUnitXmlProcessor : AB {
             Write-Host "Iterating Node: " $testCaseNode.LocalName
             $testVos = $testVos + $this.handleTestCaseNode($testCaseNode);
         }
-        Write-Host "Tests Count: " +  $this.testVos.Count
+        Write-Host "Tests Count: " +  $testVos.Count
         return $testVos
     }
 
@@ -160,15 +170,7 @@ class JUnitXmlProcessor : AB {
         return [XrayTestExecutionEntityVo]::new($this.suiteName, $this.startDate, $this.endDate, $this.testPlanVo);
     }
 
-    execute(){
-        $this.CreateTestVos()
-        $this.SaveTestVos()
-        $this.CreateTestPlanVo();
-        $this.SaveTestPlanVo()
-        $this.CreateTestExecutionVo();
-        $this.SaveTestExecutionVo()
-
-    }
+    
 }
 
 $vo = [JUnitXmlProcessor]::new([Constants]::reportFilePath)
