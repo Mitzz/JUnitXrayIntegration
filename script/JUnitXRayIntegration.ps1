@@ -32,16 +32,10 @@ class JUnitXmlProcessor{
     }
 
     [XrayTestEntityVo] handleTestCaseNode($testCaseNode){
-        $testFields = [Fields]::new()
-        $testFields.description = $testCaseNode.classname + ":" + $testCaseNode.name
-        Write-Host "Desc: " $testFields.description
-        $testFields.summary = $testFields.description
-        $testFields.issuetype = [IssueType]::new("Test")
-        $testFields.project = [Project]::new([Constants]::projectKey)
-        $testFields.customfield_10400 = [TestType]::new("Generic")
-        $testFields.customfield_10403 = "Generic test definition"
+        $description = $testCaseNode.classname + ":" + $testCaseNode.name
+        $summary = $description
+        [XrayTestEntityVo]$testVo = [XrayTestEntityVo]::new($summary, $description, "Generic")
         $comment = $this.getComment($testCaseNode)
-        [XrayTestEntityVo]$testVo = [XrayTestEntityVo]::new($testFields)
         $testVo.setStatus($this.getStatus($testCaseNode))
         $testVo.setComment($comment)
 

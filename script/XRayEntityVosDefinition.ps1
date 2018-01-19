@@ -187,7 +187,10 @@ class XrayTestSetEntityVo{
 
 class XrayTestEntityVo
 {
-    [Fields]$fields;
+    #[Fields]$fields;
+    [string]$summary;
+    [string]$description;
+    [string]$testType;
     [string]$key;
     [string]$id;
     [string]$self;
@@ -197,26 +200,43 @@ class XrayTestEntityVo
     [string]$finish;#>
     [string]$comment;
       
-    XrayTestEntityVo([Fields]$fields){
-        $this.fields = $fields
+    XrayTestEntityVo($summary, $description, $testType){
+        $this.summary = $summary
+        $this.description = $description
+        $this.testType = $testType
     }
 
-    static [XrayTestEntityVo] getInstance()
+    <#static [XrayTestEntityVo] getInstance()
     { 
         return [XrayTestEntityVo]::new([Fields]::new([Project]::new([Constants]::projectKey), "summary for " + ++[XrayTestEntityVo]::count + " at " + $(get-date -f MM-dd-yyyy_HH_mm_ss), "desc for " + [XrayTestEntityVo]::count + " at " + $([Constants]::currentDate), [IssueType]::new("Test"), [TestType]::new("Generic"), "generic test definition"));
-    }
+    }#>
 
     save(){
         $url = [Constants]::url + "api/2/issue"
         $Headers = @{
 		    Authorization = [Credentials]::getEncodedValue()
 	    }
-        $this.fields.summary = $this.fields.summary + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
-        $this.fields.description = $this.fields.description + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
+        $this.summary = $this.summary + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
+        $this.description = $this.description + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
+
+        $body = @{
+            fields = @{
+                "project" = @{
+                    "key" = [Constants]::projectKey;
+                };
+                "summary" = $this.fields.summary + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
+                "description" = $this.fields.summary + " (Created during Junit-XRay Integration using REST at " + $(Get-Date).ToString([Constants]::currentDateFormat) + ")"
+                "issuetype" = @{
+                    "name" = "Test";
+                 };
+                 "customfield_10403" = "generic test definition";
+                 "customfield_10400" = @{"value" = $this.testType};
+             }
+         }
 
         [Credentials]::setProtocols()
         Write-Host "Creating Test..."
-        $response = Invoke-WebRequest -Uri $url -Headers $Headers -Method Post -Body (ConvertTo-Json $this) -ContentType "application/json" 
+        $response = Invoke-WebRequest -Uri $url -Headers $Headers -Method Post -Body (ConvertTo-Json $body) -ContentType "application/json" 
 	    $responseContent = ConvertFrom-Json ($response.Content)
         $this.id = $responseContent.id
         $this.key = $responseContent.key
@@ -265,7 +285,7 @@ class XrayTestEntityVo
     }
 }
 
-class Fields{
+<#class Fields{
     [Project]$project;
     [string]$summary;
     [string]$description;
@@ -308,7 +328,7 @@ class Project{
     Project([string]$key){
         $this.key = $key;
     }
-}
+}#>
 
 class Constants{
     
