@@ -196,3 +196,4 @@ class JUnitXRayIntegrationProcessor{
 }
 
 $vo = [JUnitXRayIntegrationProcessor]::new([Constants]::reportFilePath)
+
