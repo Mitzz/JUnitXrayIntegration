@@ -1,0 +1,12 @@
+Software Requirement
+	Powershell : >= 5 version
+	
+File Description:
+Utility.ps1: File responsible for converting the Proflex logs from ETL template to UI Automation Template
+
+Execution Steps
+	1. Open 'Window Powershell ISE' for powershell terminal 
+	2. On terminal, go to directory where 'Utility.ps1' is present
+	3. Run following commands
+		- . .\Utility.ps1
+		- Convert-Content -InputFilePath "path/to/input/file" -OutputFilePath "path/to/output/file"

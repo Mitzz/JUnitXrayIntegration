@@ -69,18 +69,6 @@ class UtilityProcessor{
     }
 
 
-    [boolean] isSibling($node, $siblingNodeName, $siblingNodeType){
-        $parentNode = $node.ParentNode;
-        $siblingNodes = $parentNode.ChildNodes
-
-        foreach($siblingNode in $siblingNodes){
-            if($siblingNode.NodeType -eq $siblingNodeType -and $siblingNode.LocalName -eq $siblingNodeName){
-                return true;
-            }
-        }
-        return false;
-    }
-    
     [object] getSibling($node, $siblingNodeName, $siblingNodeType){
         $parentNode = $node.ParentNode;
         $siblingNodes = $parentNode.ChildNodes
