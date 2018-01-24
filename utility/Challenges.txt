@@ -4,3 +4,6 @@ Creating, Appending and Saving new Node
 Removing text
 Dealing with escape characters
 Preceding Sibling and Following Sibling
+Sibling order requirement
+Lazy vs eager for group
+Multiple digits
