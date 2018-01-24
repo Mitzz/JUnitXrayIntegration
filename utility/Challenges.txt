@@ -1,9 +1,15 @@
 cd 'C:\Users\bhansm\Desktop\JUnitXRayIntegration\utility'
+. .\Utility.ps1
+Convert-Content -InputFilePath "C:\Users\bhansm\Desktop\work\onsifhgt utility\samplereports\ATM03ATM03.xml.LOG" -OutputFilePath "C:\Users\bhansm\Desktop\JUnitXRayIntegration\utility\file.xml"
+Convert-Content -InputDirPath 'C:\Users\bhansm\Desktop\work\onsifhgt utility\samplereports'
 
 Creating, Appending and Saving new Node
 Removing text
 Dealing with escape characters
 Preceding Sibling and Following Sibling
 Sibling order requirement
-Lazy vs eager for group
-Multiple digits
+Regex usage for first time
+Regex: Lazy vs eager for group
+Regex: Multiple digits
+get Sibling using XPath preceding and following
+Multiple files instead of one file 
