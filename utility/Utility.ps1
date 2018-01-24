@@ -40,10 +40,10 @@ class UtilityProcessor{
             $text = $dayNode.InnerText
             $m = $text -match "(CURRENT)([-+])(\d*)"
             if($m){
-                $monthNode = $dayNode.PreviousSibling
-                $yearNode = $monthNode.PreviousSibling
-               
-                if(($monthNode.NodeType -eq 'Element' -and $monthNode.LocalName -eq 'Month') -and ($yearNode.NodeType -eq 'Element' -and $yearNode.LocalName -eq 'Year')){
+                $monthNode = $this.getSibling($dayNode, 'Month', 'Element')
+                $yearNode = $this.getSibling($dayNode, 'Year', 'Element')
+                
+                if($monthNode -ne $null -and $yearNode -ne $null){
                     $dayNode.set_innerXML($null)
                     $monthNode.set_innerXML($null)
                     $yearNode.set_innerXML($null)
@@ -68,4 +68,28 @@ class UtilityProcessor{
         
     }
 
+
+    [boolean] isSibling($node, $siblingNodeName, $siblingNodeType){
+        $parentNode = $node.ParentNode;
+        $siblingNodes = $parentNode.ChildNodes
+
+        foreach($siblingNode in $siblingNodes){
+            if($siblingNode.NodeType -eq $siblingNodeType -and $siblingNode.LocalName -eq $siblingNodeName){
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    [object] getSibling($node, $siblingNodeName, $siblingNodeType){
+        $parentNode = $node.ParentNode;
+        $siblingNodes = $parentNode.ChildNodes
+
+        foreach($siblingNode in $siblingNodes){
+            if($siblingNode.NodeType -eq $siblingNodeType -and $siblingNode.LocalName -eq $siblingNodeName){
+                return $siblingNode;
+            }
+        }
+        return $null;
+    } 
 }
