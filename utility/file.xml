@@ -2,9 +2,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE+1,yyyy></Year>
+      <Month><CURRDATE+1,mm></Month>
+      <Day><CURRDATE+1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -46,9 +46,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>26</Minute>
           <Second>52</Second>
@@ -62,9 +62,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE,yyyy></Year>
+          <Month><CURRDATE,mm></Month>
+          <Day><CURRDATE,dd></Day>
           <Hour>11</Hour>
           <Minute>26</Minute>
           <Second>52</Second>
@@ -431,9 +431,9 @@
   <CustPreferences id="1ac2f2726f1f4bcdbd9489a1b96b75f2" variant="10">
     <JournalDate variant="1">
       <RawTime>1516007429470</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>29</Second>
@@ -475,9 +475,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007428919</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>28</Second>
@@ -491,9 +491,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007428970</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>28</Second>
@@ -734,9 +734,9 @@
   <PinCheck id="539fb90801b2432dafa0521390be82ff" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007434905</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>34</Second>
@@ -778,9 +778,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007434905</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>34</Second>
@@ -794,9 +794,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007434393</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>34</Second>
@@ -1088,9 +1088,9 @@
   <Journal id="7c19411491da4c1a9eb4fd15ad6e420a">
     <JournalDate>
       <RawTime>1516007446517</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>46</Second>
@@ -1103,9 +1103,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007445896</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>45</Second>
@@ -1123,9 +1123,9 @@
   <Journal id="d7f65dfa24a245ef98b107d1112608e7">
     <JournalDate>
       <RawTime>1516007461553</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>01</Second>
@@ -1138,9 +1138,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007461857</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>01</Second>
@@ -1158,9 +1158,9 @@
   <Withdrawal id="cb8d3efb8d7c4f31bbb2d8a85a634199" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007472795</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>12</Second>
@@ -1202,9 +1202,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007472764</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>41</Minute>
           <Second>12</Second>
@@ -1218,9 +1218,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007473016</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>26</Minute>
           <Second>58</Second>
@@ -1614,9 +1614,9 @@
   <Journal id="9ca20f4d3d014f2196b58f6196775908">
     <JournalDate>
       <RawTime>1516007473608</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>13</Second>
@@ -1629,9 +1629,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007473888</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>13</Second>
@@ -1648,9 +1648,9 @@
   <Journal id="8b74baf760a2438d9207bf236bb7bcd5">
     <JournalDate>
       <RawTime>1516007478517</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>18</Second>
@@ -1663,9 +1663,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007478640</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>18</Second>
@@ -1676,16 +1676,16 @@
     <Parameters>
       <Parameter>
         <Key>INFOS</Key>
-        <Value> &lt;2&gt; * &lt;10,00 EUR&gt;</Value>
+        <Value> <2> * <10,00 EUR></Value>
       </Parameter>
     </Parameters>
   </Journal>
   <Journal id="0201e944225d4015b8ca9fccaff04ac3">
     <JournalDate>
       <RawTime>1516007481997</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>21</Second>
@@ -1698,9 +1698,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007481768</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>21</Second>
@@ -1717,9 +1717,9 @@
   <Withdrawal id="3e59b1c3864947118dc2ede6b5f5585f" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007486253</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>26</Second>
@@ -1761,9 +1761,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007486222</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>41</Minute>
           <Second>26</Second>
@@ -1777,9 +1777,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007485577</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>28</Minute>
           <Second>31</Second>
@@ -2235,9 +2235,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -2279,9 +2279,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>26</Minute>
           <Second>52</Second>
@@ -2295,9 +2295,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>26</Minute>
           <Second>52</Second>
@@ -2664,9 +2664,9 @@
   <CustPreferences id="08962c2e78d44698ba71851dfe7f6347" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108249850</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>40</Minute>
       <Second>49</Second>
@@ -2708,9 +2708,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108249319</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>40</Minute>
           <Second>49</Second>
@@ -2724,9 +2724,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108250441</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>40</Minute>
           <Second>50</Second>
@@ -2967,9 +2967,9 @@
   <PinCheck id="0734db01865d4386bf69dcb19de1a738" variant="11">
     <JournalDate variant="1">
       <RawTime>1516108254304</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>40</Minute>
       <Second>54</Second>
@@ -3011,9 +3011,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108254288</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>40</Minute>
           <Second>54</Second>
@@ -3027,9 +3027,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108255468</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>40</Minute>
           <Second>55</Second>
@@ -3321,9 +3321,9 @@
   <Journal id="ce572a88cacc41b98956bbb57d9c64a5">
     <JournalDate>
       <RawTime>1516108257897</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>40</Minute>
       <Second>57</Second>
@@ -3336,9 +3336,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108259029</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>40</Minute>
       <Second>59</Second>
@@ -3356,9 +3356,9 @@
   <Journal id="1cae370e1ff548ac97b440c80c538caf">
     <JournalDate>
       <RawTime>1516108260710</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>00</Second>
@@ -3371,9 +3371,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108260710</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>00</Second>
@@ -3399,9 +3399,9 @@
   <WSStateChangedEvent id="0a34d7f6478c4f528534cd1b9eb40051" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108260710</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>00</Second>
@@ -3429,9 +3429,9 @@
     <Server>Alpha.Cluster.inmupceserver</Server>
     <DateTimeOrigin variant="1">
       <RawTime>1516108260694</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>00</Second>
@@ -3463,9 +3463,9 @@
   <Deposit id="c9b2ad31df3c424691412271a8ad0d33" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108263111</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>03</Second>
@@ -3508,9 +3508,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108262554</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>02</Second>
@@ -3524,9 +3524,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108263806</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour />
           <Minute />
           <Second />
@@ -3856,9 +3856,9 @@
   <Journal id="1871f18ef5ec433f809807bca28d31b9">
     <JournalDate>
       <RawTime>1516108297360</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -3871,9 +3871,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108298519</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>38</Second>
@@ -3890,9 +3890,9 @@
   <Journal id="4ca0f08416e84802ae2418ba94566d5c">
     <JournalDate>
       <RawTime>1516108297750</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -3905,9 +3905,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108298920</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>38</Second>
@@ -3924,9 +3924,9 @@
   <Journal id="45db79c8c7be4b8eb3bc012818a5da51">
     <JournalDate>
       <RawTime>1516108297844</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -3939,9 +3939,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108298942</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>38</Second>
@@ -3959,9 +3959,9 @@
   <Journal id="e3b48bd1b2a641e68188467cda89e6a8">
     <JournalDate>
       <RawTime>1516108297891</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -3974,9 +3974,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108298951</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>38</Second>
@@ -3994,9 +3994,9 @@
   <Journal id="ac739d8dbe004fa09358f50eea08b0f3">
     <JournalDate>
       <RawTime>1516108297938</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -4009,9 +4009,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108299022</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>39</Second>
@@ -4033,9 +4033,9 @@
   <Journal id="5cdcc29c43bd4dc49a6cf60fe36b84ae">
     <JournalDate>
       <RawTime>1516108307679</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>47</Second>
@@ -4048,9 +4048,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108308892</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>48</Second>
@@ -4068,9 +4068,9 @@
   <Deposit id="a4c49a1196254d1aab17891cc2d490a5" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108310179</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>50</Second>
@@ -4113,9 +4113,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108309632</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>49</Second>
@@ -4129,9 +4129,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108310829</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>50</Second>
@@ -4463,9 +4463,9 @@
   <Deposit id="42972deba7144554a21412cb4bb0aa97" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108310851</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>50</Second>
@@ -4508,9 +4508,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108310320</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>50</Second>
@@ -4524,9 +4524,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108311518</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>51</Second>
@@ -4851,9 +4851,9 @@
   <Deposit id="6e5dd73f34204986ab17b6191d110cac" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108311500</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>51</Second>
@@ -4896,9 +4896,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108310945</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>50</Second>
@@ -4912,9 +4912,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108312143</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>52</Second>
@@ -5244,9 +5244,9 @@
   <Deposit id="754496fc866b437da88fe28749a94247" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108312336</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>52</Second>
@@ -5289,9 +5289,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108311803</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>51</Second>
@@ -5305,9 +5305,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108313004</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>53</Second>
@@ -5636,9 +5636,9 @@
   <Journal id="ce60dca16f4842c29e810b9dce00c420">
     <JournalDate>
       <RawTime>1516108322320</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -5651,9 +5651,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108322859</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -5670,9 +5670,9 @@
   <Journal id="fd287ab494c84d8b823bf3a05edfa1f4">
     <JournalDate>
       <RawTime>1516108322383</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -5685,9 +5685,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108322879</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -5705,9 +5705,9 @@
   <Journal id="47d2478397314c9180afb0d3f6e0b4b6">
     <JournalDate>
       <RawTime>1516108322476</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -5720,9 +5720,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108322879</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -5740,9 +5740,9 @@
   <Deposit id="fa319df7dad4404d92b1d2bf861138a9" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108327915</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>07</Second>
@@ -5785,9 +5785,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108327339</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>42</Minute>
           <Second>07</Second>
@@ -5801,9 +5801,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108327581</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour />
           <Minute />
           <Second />
@@ -6174,9 +6174,9 @@
   <Logout id="b31a6b70aef44c73bf21f7cae38ecda3" variant="11">
     <JournalDate variant="1">
       <RawTime>1516009301363</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>11</Minute>
       <Second>41</Second>
@@ -6218,9 +6218,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299522</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>28</Minute>
           <Second>sessionEndSec</Second>
@@ -6234,9 +6234,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299075</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>28</Minute>
           <Second>45</Second>
@@ -6531,9 +6531,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -6575,9 +6575,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>24</Minute>
           <Second>40</Second>
@@ -6591,9 +6591,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>24</Minute>
           <Second>40</Second>
@@ -6960,9 +6960,9 @@
   <CustPreferences id="08962c2e78d44698ba71851dfe7f6347" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108249850</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>40</Minute>
       <Second>49</Second>
@@ -7004,9 +7004,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108249319</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>40</Minute>
           <Second>49</Second>
@@ -7020,9 +7020,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108250441</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>40</Minute>
           <Second>50</Second>
@@ -7263,9 +7263,9 @@
   <PinCheck id="0734db01865d4386bf69dcb19de1a738" variant="11">
     <JournalDate variant="1">
       <RawTime>1516108254304</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>40</Minute>
       <Second>54</Second>
@@ -7307,9 +7307,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108254288</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>40</Minute>
           <Second>54</Second>
@@ -7323,9 +7323,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108255468</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>40</Minute>
           <Second>55</Second>
@@ -7617,9 +7617,9 @@
   <Journal id="ce572a88cacc41b98956bbb57d9c64a5">
     <JournalDate>
       <RawTime>1516108257897</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>40</Minute>
       <Second>57</Second>
@@ -7632,9 +7632,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108259029</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>40</Minute>
       <Second>59</Second>
@@ -7652,9 +7652,9 @@
   <Journal id="1cae370e1ff548ac97b440c80c538caf">
     <JournalDate>
       <RawTime>1516108260710</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>00</Second>
@@ -7667,9 +7667,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108260710</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>00</Second>
@@ -7695,9 +7695,9 @@
   <WSStateChangedEvent id="0a34d7f6478c4f528534cd1b9eb40051" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108260710</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>00</Second>
@@ -7725,9 +7725,9 @@
     <Server>Alpha.Cluster.inmupceserver</Server>
     <DateTimeOrigin variant="1">
       <RawTime>1516108260694</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>00</Second>
@@ -7759,9 +7759,9 @@
   <Deposit id="c9b2ad31df3c424691412271a8ad0d33" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108263111</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>03</Second>
@@ -7804,9 +7804,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108262554</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>02</Second>
@@ -7820,9 +7820,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108263806</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>24</Minute>
           <Second>44</Second>
@@ -8152,9 +8152,9 @@
   <Journal id="1871f18ef5ec433f809807bca28d31b9">
     <JournalDate>
       <RawTime>1516108297360</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -8167,9 +8167,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108298519</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>38</Second>
@@ -8186,9 +8186,9 @@
   <Journal id="4ca0f08416e84802ae2418ba94566d5c">
     <JournalDate>
       <RawTime>1516108297750</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -8201,9 +8201,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108298920</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>38</Second>
@@ -8220,9 +8220,9 @@
   <Journal id="45db79c8c7be4b8eb3bc012818a5da51">
     <JournalDate>
       <RawTime>1516108297844</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -8235,9 +8235,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108298942</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>38</Second>
@@ -8255,9 +8255,9 @@
   <Journal id="e3b48bd1b2a641e68188467cda89e6a8">
     <JournalDate>
       <RawTime>1516108297891</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -8270,9 +8270,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108298951</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>38</Second>
@@ -8290,9 +8290,9 @@
   <Journal id="ac739d8dbe004fa09358f50eea08b0f3">
     <JournalDate>
       <RawTime>1516108297938</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>37</Second>
@@ -8305,9 +8305,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108299022</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>39</Second>
@@ -8329,9 +8329,9 @@
   <Journal id="5cdcc29c43bd4dc49a6cf60fe36b84ae">
     <JournalDate>
       <RawTime>1516108307679</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>47</Second>
@@ -8344,9 +8344,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108308892</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>48</Second>
@@ -8364,9 +8364,9 @@
   <Deposit id="a4c49a1196254d1aab17891cc2d490a5" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108310179</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>50</Second>
@@ -8409,9 +8409,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108309632</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>49</Second>
@@ -8425,9 +8425,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108310829</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>50</Second>
@@ -8759,9 +8759,9 @@
   <Deposit id="42972deba7144554a21412cb4bb0aa97" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108310851</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>50</Second>
@@ -8804,9 +8804,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108310320</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>50</Second>
@@ -8820,9 +8820,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108311518</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>51</Second>
@@ -9147,9 +9147,9 @@
   <Deposit id="6e5dd73f34204986ab17b6191d110cac" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108311500</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>51</Second>
@@ -9192,9 +9192,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108310945</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>50</Second>
@@ -9208,9 +9208,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108312143</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>52</Second>
@@ -9540,9 +9540,9 @@
   <Deposit id="754496fc866b437da88fe28749a94247" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108312336</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>41</Minute>
       <Second>52</Second>
@@ -9585,9 +9585,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108311803</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>51</Second>
@@ -9601,9 +9601,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108313004</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>41</Minute>
           <Second>53</Second>
@@ -9932,9 +9932,9 @@
   <Journal id="ce60dca16f4842c29e810b9dce00c420">
     <JournalDate>
       <RawTime>1516108322320</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -9947,9 +9947,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108322859</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -9966,9 +9966,9 @@
   <Journal id="fd287ab494c84d8b823bf3a05edfa1f4">
     <JournalDate>
       <RawTime>1516108322383</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -9981,9 +9981,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108322879</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -10001,9 +10001,9 @@
   <Journal id="47d2478397314c9180afb0d3f6e0b4b6">
     <JournalDate>
       <RawTime>1516108322476</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -10016,9 +10016,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516108322879</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>02</Second>
@@ -10036,9 +10036,9 @@
   <Deposit id="fa319df7dad4404d92b1d2bf861138a9" variant="10">
     <JournalDate variant="1">
       <RawTime>1516108327915</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>18</Hour>
       <Minute>42</Minute>
       <Second>07</Second>
@@ -10081,9 +10081,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108327339</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>18</Hour>
           <Minute>42</Minute>
           <Second>07</Second>
@@ -10097,9 +10097,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516108327581</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>26</Minute>
           <Second>45</Second>
@@ -10470,9 +10470,9 @@
   <Logout id="b31a6b70aef44c73bf21f7cae38ecda3" variant="11">
     <JournalDate variant="1">
       <RawTime>1516009301363</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>11</Minute>
       <Second>41</Second>
@@ -10514,9 +10514,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299522</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>26</Minute>
           <Second>sessionEndSec</Second>
@@ -10530,9 +10530,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299075</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>26</Minute>
           <Second>50</Second>
@@ -10827,9 +10827,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -10871,9 +10871,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>28</Minute>
           <Second>46</Second>
@@ -10887,9 +10887,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>28</Minute>
           <Second>46</Second>
@@ -11256,9 +11256,9 @@
   <CustPreferences id="6e55c9bfe0f842fcb05cdeddc817e2e1" variant="10">
     <JournalDate variant="1">
       <RawTime>1516011836153</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>53</Minute>
       <Second>56</Second>
@@ -11300,9 +11300,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011835600</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>53</Minute>
           <Second>55</Second>
@@ -11316,9 +11316,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011836280</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>53</Minute>
           <Second>56</Second>
@@ -11559,9 +11559,9 @@
   <PinCheck id="e122edc069c74e31b399fee48dfccc9b" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011840945</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>00</Second>
@@ -11603,9 +11603,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011840914</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>00</Second>
@@ -11619,9 +11619,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011844145</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>04</Second>
@@ -11913,9 +11913,9 @@
   <Journal id="2d248fabd8ff468c8b6273757aecd1d8">
     <JournalDate>
       <RawTime>1516011846869</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>06</Second>
@@ -11928,9 +11928,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011852334</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>12</Second>
@@ -11948,9 +11948,9 @@
   <Withdrawal id="31757996718f476bac90f78979929ca0" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011851200</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>11</Second>
@@ -11992,9 +11992,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011851107</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>11</Second>
@@ -12008,9 +12008,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011857950</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>28</Minute>
           <Second>55</Second>
@@ -12404,9 +12404,9 @@
   <Journal id="4479a04c72994ce29651f6922e0b1066">
     <JournalDate>
       <RawTime>1516011852091</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>12</Second>
@@ -12419,9 +12419,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011859250</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>19</Second>
@@ -12438,9 +12438,9 @@
   <Journal id="7a83cc5930f447ddbae32393437dbbed">
     <JournalDate>
       <RawTime>1516011855813</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>15</Second>
@@ -12453,9 +12453,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011863817</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>23</Second>
@@ -12466,16 +12466,16 @@
     <Parameters>
       <Parameter>
         <Key>INFOS</Key>
-        <Value> &lt;1&gt; * &lt;10,00 EUR&gt; &lt;1&gt; * &lt;50,00 EUR&gt;</Value>
+        <Value> <1> * <10,00 EUR> <1> * <50,00 EUR></Value>
       </Parameter>
     </Parameters>
   </Journal>
   <Journal id="3280ef13c4394ba3805c7ff8bf665e3c">
     <JournalDate>
       <RawTime>1516011857576</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>17</Second>
@@ -12488,9 +12488,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011865921</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>25</Second>
@@ -12507,9 +12507,9 @@
   <Withdrawal id="d90fe3c02ebe4b37b2b8145d1cf745bb" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011862795</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>22</Second>
@@ -12551,9 +12551,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011862717</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>22</Second>
@@ -12567,9 +12567,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011872022</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>30</Minute>
           <Second>45</Second>
@@ -13054,9 +13054,9 @@
   <Logout id="b31a6b70aef44c73bf21f7cae38ecda3" variant="11">
     <JournalDate variant="1">
       <RawTime>1516009301363</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>11</Minute>
       <Second>41</Second>
@@ -13098,9 +13098,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299522</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>30</Minute>
           <Second>sessionEndSec</Second>
@@ -13114,9 +13114,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299075</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>30</Minute>
           <Second>45</Second>
@@ -13411,9 +13411,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -13455,9 +13455,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>23</Minute>
           <Second>00</Second>
@@ -13471,9 +13471,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>23</Minute>
           <Second>00</Second>
@@ -13840,9 +13840,9 @@
   <CustPreferences id="0997a026cc274e28b642308f53dc7954" variant="10">
     <JournalDate variant="1">
       <RawTime>1516015669851</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>16</Hour>
       <Minute>57</Minute>
       <Second>49</Second>
@@ -13884,9 +13884,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516015669328</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>16</Hour>
           <Minute>57</Minute>
           <Second>49</Second>
@@ -13900,9 +13900,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516015669058</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>16</Hour>
           <Minute>57</Minute>
           <Second>49</Second>
@@ -14143,9 +14143,9 @@
   <PinCheck id="dfc2747ba2244debb7f7c3b345705c15" variant="11">
     <JournalDate variant="1">
       <RawTime>1516015678984</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>16</Hour>
       <Minute>57</Minute>
       <Second>58</Second>
@@ -14187,9 +14187,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516015678968</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>16</Hour>
           <Minute>57</Minute>
           <Second>58</Second>
@@ -14203,9 +14203,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516015679264</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>16</Hour>
           <Minute>57</Minute>
           <Second>59</Second>
@@ -14497,9 +14497,9 @@
   <Journal id="805fbaeffc8f48059d53d036dfb5b7d5">
     <JournalDate>
       <RawTime>1516015686661</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>16</Hour>
       <Minute>58</Minute>
       <Second>06</Second>
@@ -14512,9 +14512,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516015685071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>16</Hour>
       <Minute>58</Minute>
       <Second>05</Second>
@@ -14532,9 +14532,9 @@
   <AccountOverview id="9d0c14453bb54763af0384a0c22a7f18" variant="11">
     <JournalDate variant="1">
       <RawTime>1516015686813</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>16</Hour>
       <Minute>58</Minute>
       <Second>06</Second>
@@ -14576,9 +14576,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516015686771</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>16</Hour>
           <Minute>58</Minute>
           <Second>06</Second>
@@ -14592,9 +14592,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516015687171</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>23</Minute>
           <Second>05</Second>
@@ -14950,9 +14950,9 @@
   <AccountOverview id="4d7091e6520743d1b21ccc1668bb1a4c" variant="11">
     <JournalDate variant="1">
       <RawTime>1516015717701</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>16</Hour>
       <Minute>58</Minute>
       <Second>37</Second>
@@ -14994,9 +14994,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516015717670</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>16</Hour>
           <Minute>58</Minute>
           <Second>37</Second>
@@ -15010,9 +15010,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516015717781</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>24</Minute>
           <Second>38</Second>
@@ -15399,9 +15399,9 @@
   <Logout id="b31a6b70aef44c73bf21f7cae38ecda3" variant="11">
     <JournalDate variant="1">
       <RawTime>1516009301363</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>11</Minute>
       <Second>41</Second>
@@ -15443,9 +15443,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299522</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>24</Minute>
           <Second>sessionEndSec</Second>
@@ -15459,9 +15459,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299075</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>24</Minute>
           <Second>39</Second>
@@ -15756,9 +15756,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -15800,9 +15800,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>32</Minute>
           <Second>50</Second>
@@ -15816,9 +15816,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>32</Minute>
           <Second>50</Second>
@@ -16185,9 +16185,9 @@
   <CustPreferences id="1ac2f2726f1f4bcdbd9489a1b96b75f2" variant="10">
     <JournalDate variant="1">
       <RawTime>1516007429470</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>29</Second>
@@ -16229,9 +16229,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007428919</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>28</Second>
@@ -16245,9 +16245,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007428970</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>28</Second>
@@ -16488,9 +16488,9 @@
   <PinCheck id="539fb90801b2432dafa0521390be82ff" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007434905</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>34</Second>
@@ -16532,9 +16532,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007434905</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>34</Second>
@@ -16548,9 +16548,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007434393</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>34</Second>
@@ -16842,9 +16842,9 @@
   <Journal id="7c19411491da4c1a9eb4fd15ad6e420a">
     <JournalDate>
       <RawTime>1516007446517</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>46</Second>
@@ -16857,9 +16857,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007445896</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>45</Second>
@@ -16877,9 +16877,9 @@
   <Journal id="d7f65dfa24a245ef98b107d1112608e7">
     <JournalDate>
       <RawTime>1516007461553</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>01</Second>
@@ -16892,9 +16892,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007461857</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>01</Second>
@@ -16912,9 +16912,9 @@
   <Withdrawal id="cb8d3efb8d7c4f31bbb2d8a85a634199" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007472795</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>12</Second>
@@ -16956,9 +16956,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007472764</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>41</Minute>
           <Second>12</Second>
@@ -16972,9 +16972,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007473016</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>32</Minute>
           <Second>55</Second>
@@ -17368,9 +17368,9 @@
   <Journal id="9ca20f4d3d014f2196b58f6196775908">
     <JournalDate>
       <RawTime>1516007473608</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>13</Second>
@@ -17383,9 +17383,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007473888</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>13</Second>
@@ -17402,9 +17402,9 @@
   <Journal id="8b74baf760a2438d9207bf236bb7bcd5">
     <JournalDate>
       <RawTime>1516007478517</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>18</Second>
@@ -17417,9 +17417,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007478640</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>18</Second>
@@ -17430,16 +17430,16 @@
     <Parameters>
       <Parameter>
         <Key>INFOS</Key>
-        <Value> &lt;2&gt; * &lt;10,00 EUR&gt;</Value>
+        <Value> <2> * <10,00 EUR></Value>
       </Parameter>
     </Parameters>
   </Journal>
   <Journal id="0201e944225d4015b8ca9fccaff04ac3">
     <JournalDate>
       <RawTime>1516007481997</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>21</Second>
@@ -17452,9 +17452,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007481768</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>21</Second>
@@ -17471,9 +17471,9 @@
   <Withdrawal id="3e59b1c3864947118dc2ede6b5f5585f" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007486253</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>26</Second>
@@ -17515,9 +17515,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007486222</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>41</Minute>
           <Second>26</Second>
@@ -17531,9 +17531,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007485577</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>35</Minute>
           <Second>04</Second>
@@ -17989,9 +17989,9 @@
   <Logout id="b31a6b70aef44c73bf21f7cae38ecda3" variant="11">
     <JournalDate variant="1">
       <RawTime>1516009301363</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>11</Minute>
       <Second>41</Second>
@@ -18033,9 +18033,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299522</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>35</Minute>
           <Second>sessionEndSec</Second>
@@ -18049,9 +18049,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299075</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>35</Minute>
           <Second>04</Second>
@@ -18346,9 +18346,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -18390,9 +18390,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>30</Minute>
           <Second>45</Second>
@@ -18406,9 +18406,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>30</Minute>
           <Second>45</Second>
@@ -18775,9 +18775,9 @@
   <CustPreferences id="6e55c9bfe0f842fcb05cdeddc817e2e1" variant="10">
     <JournalDate variant="1">
       <RawTime>1516011836153</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>53</Minute>
       <Second>56</Second>
@@ -18819,9 +18819,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011835600</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>53</Minute>
           <Second>55</Second>
@@ -18835,9 +18835,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011836280</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>53</Minute>
           <Second>56</Second>
@@ -19078,9 +19078,9 @@
   <PinCheck id="e122edc069c74e31b399fee48dfccc9b" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011840945</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>00</Second>
@@ -19122,9 +19122,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011840914</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>00</Second>
@@ -19138,9 +19138,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011844145</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>04</Second>
@@ -19432,9 +19432,9 @@
   <Journal id="2d248fabd8ff468c8b6273757aecd1d8">
     <JournalDate>
       <RawTime>1516011846869</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>06</Second>
@@ -19447,9 +19447,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011852334</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>12</Second>
@@ -19467,9 +19467,9 @@
   <Withdrawal id="31757996718f476bac90f78979929ca0" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011851200</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>11</Second>
@@ -19511,9 +19511,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011851107</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>11</Second>
@@ -19527,9 +19527,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011857950</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour />
           <Minute />
           <Second />
@@ -19923,9 +19923,9 @@
   <Journal id="4479a04c72994ce29651f6922e0b1066">
     <JournalDate>
       <RawTime>1516011852091</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>12</Second>
@@ -19938,9 +19938,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011859250</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>19</Second>
@@ -19957,9 +19957,9 @@
   <Journal id="7a83cc5930f447ddbae32393437dbbed">
     <JournalDate>
       <RawTime>1516011855813</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>15</Second>
@@ -19972,9 +19972,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011863817</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>23</Second>
@@ -19985,16 +19985,16 @@
     <Parameters>
       <Parameter>
         <Key>INFOS</Key>
-        <Value> &lt;1&gt; * &lt;10,00 EUR&gt; &lt;1&gt; * &lt;50,00 EUR&gt;</Value>
+        <Value> <1> * <10,00 EUR> <1> * <50,00 EUR></Value>
       </Parameter>
     </Parameters>
   </Journal>
   <Journal id="3280ef13c4394ba3805c7ff8bf665e3c">
     <JournalDate>
       <RawTime>1516011857576</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>17</Second>
@@ -20007,9 +20007,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011865921</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>25</Second>
@@ -20026,9 +20026,9 @@
   <Withdrawal id="d90fe3c02ebe4b37b2b8145d1cf745bb" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011862795</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>22</Second>
@@ -20070,9 +20070,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011862717</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>22</Second>
@@ -20086,9 +20086,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011872022</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour />
           <Minute />
           <Second />
@@ -20573,9 +20573,9 @@
   <Logout id="b31a6b70aef44c73bf21f7cae38ecda3" variant="11">
     <JournalDate variant="1">
       <RawTime>1516009301363</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>11</Minute>
       <Second>41</Second>
@@ -20617,9 +20617,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299522</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>32</Minute>
           <Second>sessionEndSec</Second>
@@ -20633,9 +20633,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299075</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>32</Minute>
           <Second>48</Second>
@@ -20930,9 +20930,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -20974,9 +20974,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>21</Minute>
           <Second>31</Second>
@@ -20990,9 +20990,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>21</Minute>
           <Second>31</Second>
@@ -21359,9 +21359,9 @@
   <CustPreferences id="1ac2f2726f1f4bcdbd9489a1b96b75f2" variant="10">
     <JournalDate variant="1">
       <RawTime>1516007429470</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>29</Second>
@@ -21403,9 +21403,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007428919</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>28</Second>
@@ -21419,9 +21419,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007428970</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>28</Second>
@@ -21662,9 +21662,9 @@
   <PinCheck id="539fb90801b2432dafa0521390be82ff" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007434905</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>34</Second>
@@ -21706,9 +21706,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007434905</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>34</Second>
@@ -21722,9 +21722,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007434393</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>40</Minute>
           <Second>34</Second>
@@ -22016,9 +22016,9 @@
   <Journal id="7c19411491da4c1a9eb4fd15ad6e420a">
     <JournalDate>
       <RawTime>1516007446517</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>46</Second>
@@ -22031,9 +22031,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007445896</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>40</Minute>
       <Second>45</Second>
@@ -22051,9 +22051,9 @@
   <Journal id="d7f65dfa24a245ef98b107d1112608e7">
     <JournalDate>
       <RawTime>1516007461553</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>01</Second>
@@ -22066,9 +22066,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007461857</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>01</Second>
@@ -22086,9 +22086,9 @@
   <Withdrawal id="cb8d3efb8d7c4f31bbb2d8a85a634199" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007472795</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>12</Second>
@@ -22130,9 +22130,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007472764</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>41</Minute>
           <Second>12</Second>
@@ -22146,9 +22146,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007473016</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>21</Minute>
           <Second>35</Second>
@@ -22542,9 +22542,9 @@
   <Journal id="9ca20f4d3d014f2196b58f6196775908">
     <JournalDate>
       <RawTime>1516007473608</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>13</Second>
@@ -22557,9 +22557,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007473888</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>13</Second>
@@ -22576,9 +22576,9 @@
   <Journal id="8b74baf760a2438d9207bf236bb7bcd5">
     <JournalDate>
       <RawTime>1516007478517</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>18</Second>
@@ -22591,9 +22591,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007478640</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>18</Second>
@@ -22604,16 +22604,16 @@
     <Parameters>
       <Parameter>
         <Key>INFOS</Key>
-        <Value> &lt;2&gt; * &lt;10,00 EUR&gt;</Value>
+        <Value> <2> * <10,00 EUR></Value>
       </Parameter>
     </Parameters>
   </Journal>
   <Journal id="0201e944225d4015b8ca9fccaff04ac3">
     <JournalDate>
       <RawTime>1516007481997</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>21</Second>
@@ -22626,9 +22626,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516007481768</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>21</Second>
@@ -22645,9 +22645,9 @@
   <Withdrawal id="3e59b1c3864947118dc2ede6b5f5585f" variant="11">
     <JournalDate variant="1">
       <RawTime>1516007486253</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>14</Hour>
       <Minute>41</Minute>
       <Second>26</Second>
@@ -22689,9 +22689,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007486222</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>14</Hour>
           <Minute>41</Minute>
           <Second>26</Second>
@@ -22705,9 +22705,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516007485577</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>22</Minute>
           <Second>59</Second>
@@ -23163,9 +23163,9 @@
   <Logout id="b31a6b70aef44c73bf21f7cae38ecda3" variant="11">
     <JournalDate variant="1">
       <RawTime>1516009301363</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>11</Minute>
       <Second>41</Second>
@@ -23207,9 +23207,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299522</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>22</Minute>
           <Second>sessionEndSec</Second>
@@ -23223,9 +23223,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299075</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>22</Minute>
           <Second>59</Second>
@@ -23520,9 +23520,9 @@
   <Login id="27270ae0be28407aaf5b5d0765f7cc8a" variant="12">
     <JournalDate variant="1">
       <RawTime>1516009221071</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>10</Minute>
       <Second>21</Second>
@@ -23564,9 +23564,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009220618</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>35</Minute>
           <Second>05</Second>
@@ -23580,9 +23580,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009219486</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>35</Minute>
           <Second>05</Second>
@@ -23949,9 +23949,9 @@
   <CustPreferences id="6e55c9bfe0f842fcb05cdeddc817e2e1" variant="10">
     <JournalDate variant="1">
       <RawTime>1516011836153</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>53</Minute>
       <Second>56</Second>
@@ -23993,9 +23993,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011835600</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>53</Minute>
           <Second>55</Second>
@@ -24009,9 +24009,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011836280</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>53</Minute>
           <Second>56</Second>
@@ -24252,9 +24252,9 @@
   <PinCheck id="e122edc069c74e31b399fee48dfccc9b" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011840945</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>00</Second>
@@ -24296,9 +24296,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011840914</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>00</Second>
@@ -24312,9 +24312,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011844145</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>04</Second>
@@ -24606,9 +24606,9 @@
   <Journal id="2d248fabd8ff468c8b6273757aecd1d8">
     <JournalDate>
       <RawTime>1516011846869</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>06</Second>
@@ -24621,9 +24621,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011852334</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>12</Second>
@@ -24641,9 +24641,9 @@
   <Withdrawal id="31757996718f476bac90f78979929ca0" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011851200</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>11</Second>
@@ -24685,9 +24685,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011851107</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>11</Second>
@@ -24701,9 +24701,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011857950</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>35</Minute>
           <Second>13</Second>
@@ -25097,9 +25097,9 @@
   <Journal id="4479a04c72994ce29651f6922e0b1066">
     <JournalDate>
       <RawTime>1516011852091</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>12</Second>
@@ -25112,9 +25112,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011859250</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>19</Second>
@@ -25131,9 +25131,9 @@
   <Journal id="7a83cc5930f447ddbae32393437dbbed">
     <JournalDate>
       <RawTime>1516011855813</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>15</Second>
@@ -25146,9 +25146,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011863817</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>23</Second>
@@ -25159,16 +25159,16 @@
     <Parameters>
       <Parameter>
         <Key>INFOS</Key>
-        <Value> &lt;1&gt; * &lt;10,00 EUR&gt; &lt;1&gt; * &lt;50,00 EUR&gt;</Value>
+        <Value> <1> * <10,00 EUR> <1> * <50,00 EUR></Value>
       </Parameter>
     </Parameters>
   </Journal>
   <Journal id="3280ef13c4394ba3805c7ff8bf665e3c">
     <JournalDate>
       <RawTime>1516011857576</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>17</Second>
@@ -25181,9 +25181,9 @@
     </ActionAddr>
     <ActionDateTime>
       <RawTime>1516011865921</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>25</Second>
@@ -25200,9 +25200,9 @@
   <Withdrawal id="d90fe3c02ebe4b37b2b8145d1cf745bb" variant="11">
     <JournalDate variant="1">
       <RawTime>1516011862795</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>54</Minute>
       <Second>22</Second>
@@ -25244,9 +25244,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011862717</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>15</Hour>
           <Minute>54</Minute>
           <Second>22</Second>
@@ -25260,9 +25260,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516011872022</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>37</Minute>
           <Second>09</Second>
@@ -25747,9 +25747,9 @@
   <Logout id="b31a6b70aef44c73bf21f7cae38ecda3" variant="11">
     <JournalDate variant="1">
       <RawTime>1516009301363</RawTime>
-      <Year>year</Year>
-      <Month>month</Month>
-      <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+      <Year><CURRDATE-1,yyyy></Year>
+      <Month><CURRDATE-1,mm></Month>
+      <Day><CURRDATE-1,dd></Day>
       <Hour>15</Hour>
       <Minute>11</Minute>
       <Second>41</Second>
@@ -25791,9 +25791,9 @@
       <ServerTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299522</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>37</Minute>
           <Second>sessionEndSec</Second>
@@ -25807,9 +25807,9 @@
       <ClientTrnStamp release="0" variant="1">
         <DateTime variant="1">
           <RawTime>1516009299075</RawTime>
-          <Year>year</Year>
-          <Month>month</Month>
-          <Day>&lt;CURRDATE-1,dd&amp;gt;</Day>
+          <Year><CURRDATE-1,yyyy></Year>
+          <Month><CURRDATE-1,mm></Month>
+          <Day><CURRDATE-1,dd></Day>
           <Hour>11</Hour>
           <Minute>37</Minute>
           <Second>09</Second>
